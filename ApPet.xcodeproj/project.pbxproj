@@ -7,11 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		15F8456EEF1A40E5312DBCC0 /* Pods_ApPet.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75875FDF6572283C5C402E4A /* Pods_ApPet.framework */; };
 		6DEDB3FC1FA41E1500E0CD0A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DEDB3FB1FA41E1500E0CD0A /* AppDelegate.swift */; };
 		6DEDB3FE1FA41E1500E0CD0A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DEDB3FD1FA41E1500E0CD0A /* ViewController.swift */; };
 		6DEDB4011FA41E1500E0CD0A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6DEDB3FF1FA41E1500E0CD0A /* Main.storyboard */; };
 		6DEDB4031FA41E1500E0CD0A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6DEDB4021FA41E1500E0CD0A /* Assets.xcassets */; };
 		6DEDB4061FA41E1500E0CD0A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6DEDB4041FA41E1500E0CD0A /* LaunchScreen.storyboard */; };
+		6DEDB40E1FA464B100E0CD0A /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DEDB40D1FA464B100E0CD0A /* LoginViewController.swift */; };
+		6DEDB4101FA46F2800E0CD0A /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DEDB40F1FA46F2800E0CD0A /* SignUpViewController.swift */; };
+		6DEDB4121FA479CA00E0CD0A /* AddPetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DEDB4111FA479CA00E0CD0A /* AddPetViewController.swift */; };
+		6DEDB4141FA5143F00E0CD0A /* AdopcionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DEDB4131FA5143F00E0CD0A /* AdopcionViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +27,13 @@
 		6DEDB4021FA41E1500E0CD0A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6DEDB4051FA41E1500E0CD0A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6DEDB4071FA41E1500E0CD0A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6DEDB40D1FA464B100E0CD0A /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		6DEDB40F1FA46F2800E0CD0A /* SignUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		6DEDB4111FA479CA00E0CD0A /* AddPetViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddPetViewController.swift; sourceTree = "<group>"; };
+		6DEDB4131FA5143F00E0CD0A /* AdopcionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AdopcionViewController.swift; sourceTree = "<group>"; };
+		75875FDF6572283C5C402E4A /* Pods_ApPet.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ApPet.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8CCD9F8F14FFEA1F87EC3FEB /* Pods-ApPet.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ApPet.release.xcconfig"; path = "Pods/Target Support Files/Pods-ApPet/Pods-ApPet.release.xcconfig"; sourceTree = "<group>"; };
+		C02BD9C20A4BEBD8E517169E /* Pods-ApPet.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ApPet.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ApPet/Pods-ApPet.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +41,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				15F8456EEF1A40E5312DBCC0 /* Pods_ApPet.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +53,8 @@
 			children = (
 				6DEDB3FA1FA41E1500E0CD0A /* ApPet */,
 				6DEDB3F91FA41E1500E0CD0A /* Products */,
+				8C2402A993CEDEDAF77479B4 /* Pods */,
+				A80D166C18C0E3B571179B64 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,12 +71,33 @@
 			children = (
 				6DEDB3FB1FA41E1500E0CD0A /* AppDelegate.swift */,
 				6DEDB3FD1FA41E1500E0CD0A /* ViewController.swift */,
+				6DEDB40D1FA464B100E0CD0A /* LoginViewController.swift */,
+				6DEDB40F1FA46F2800E0CD0A /* SignUpViewController.swift */,
+				6DEDB4111FA479CA00E0CD0A /* AddPetViewController.swift */,
+				6DEDB4131FA5143F00E0CD0A /* AdopcionViewController.swift */,
 				6DEDB3FF1FA41E1500E0CD0A /* Main.storyboard */,
 				6DEDB4021FA41E1500E0CD0A /* Assets.xcassets */,
 				6DEDB4041FA41E1500E0CD0A /* LaunchScreen.storyboard */,
 				6DEDB4071FA41E1500E0CD0A /* Info.plist */,
 			);
 			path = ApPet;
+			sourceTree = "<group>";
+		};
+		8C2402A993CEDEDAF77479B4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C02BD9C20A4BEBD8E517169E /* Pods-ApPet.debug.xcconfig */,
+				8CCD9F8F14FFEA1F87EC3FEB /* Pods-ApPet.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A80D166C18C0E3B571179B64 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				75875FDF6572283C5C402E4A /* Pods_ApPet.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +107,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6DEDB40A1FA41E1500E0CD0A /* Build configuration list for PBXNativeTarget "ApPet" */;
 			buildPhases = (
+				9996AEB195C8856DAC4C291B /* [CP] Check Pods Manifest.lock */,
 				6DEDB3F41FA41E1400E0CD0A /* Sources */,
 				6DEDB3F51FA41E1400E0CD0A /* Frameworks */,
 				6DEDB3F61FA41E1400E0CD0A /* Resources */,
+				B11B9B24888B66C5B8A285CA /* [CP] Embed Pods Frameworks */,
+				DFC71B7D37D1CD931DF796BE /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -132,13 +171,71 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		9996AEB195C8856DAC4C291B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ApPet-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B11B9B24888B66C5B8A285CA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-ApPet/Pods-ApPet-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/IQKeyboardManagerSwift/IQKeyboardManagerSwift.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IQKeyboardManagerSwift.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ApPet/Pods-ApPet-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DFC71B7D37D1CD931DF796BE /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ApPet/Pods-ApPet-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		6DEDB3F41FA41E1400E0CD0A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6DEDB40E1FA464B100E0CD0A /* LoginViewController.swift in Sources */,
 				6DEDB3FE1FA41E1500E0CD0A /* ViewController.swift in Sources */,
+				6DEDB4121FA479CA00E0CD0A /* AddPetViewController.swift in Sources */,
+				6DEDB4101FA46F2800E0CD0A /* SignUpViewController.swift in Sources */,
 				6DEDB3FC1FA41E1500E0CD0A /* AppDelegate.swift in Sources */,
+				6DEDB4141FA5143F00E0CD0A /* AdopcionViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,6 +354,7 @@
 		};
 		6DEDB40B1FA41E1500E0CD0A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C02BD9C20A4BEBD8E517169E /* Pods-ApPet.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = YGWMXZR283;
@@ -270,6 +368,7 @@
 		};
 		6DEDB40C1FA41E1500E0CD0A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8CCD9F8F14FFEA1F87EC3FEB /* Pods-ApPet.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = YGWMXZR283;
@@ -300,6 +399,7 @@
 				6DEDB40C1FA41E1500E0CD0A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
